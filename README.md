@@ -26,6 +26,18 @@ Connect GND pin to -
 
 ### Code
 
+All Calculations on inputs are to be done on the Controller side
+
+Send all normalized Left and Right X and Y values from Controller
+
+All values are between -100 and 100
+Left = -100
+Right = 100
+Down = -100
+Up = 100
+
+Additionally, Deadzone will be added, so if joystick input is too weak, value will default to 0, no movement
+
 
 ## Drone
 ### Parts
@@ -38,3 +50,8 @@ Connect GND pin to -
 | Brushless Motor  | 4  | Spins Propellers  |
 | Propellers |  4  |  Create Lift to make drone Fly  |
 ### Wiring
+
+
+### Code
+
+Motor Speed = Throttle + PitchCorrection + RollCorrection - yawCorrection + GyroScopeAdjustments

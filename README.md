@@ -13,10 +13,15 @@ The Purpose of this repository is track changes on the drone code and to use it 
 | On/Off Switch  | 1  | Turn on and off Controller  |
 ### Wiring
 Left X Pin = 0
+
 Left Y Pin = 1
+
 Right X Pin = 2
+
 Right X Pin = 3
+
 Connect 3.3V pin to +
+
 Connect GND pin to -
 
 ### Code
@@ -26,7 +31,7 @@ Connect GND pin to -
 ### Parts
 |  Part  | Amount  |  Use  |
 |  :---:  |  :---:  |  :---:  |
-| ESP32 S3  |  1  |  Run code and receive inputs from Controller  |
+| MPU6050  |  1  |  Run code and receive inputs from Controller  |
 | Gyroscope  | 1 |  Used to Get information about drone and correct movement  |
 | Battery 11.1V  | 1  | Power Drone  |
 | ESC  |  4  | Control each motor's speed  |

@@ -51,6 +51,11 @@ Additionally, Deadzone will be added, so if joystick input is too weak, value wi
 | Propellers |  4  |  Create Lift to make drone Fly  |
 ### Wiring
 
+### Motor Directions
+Bottom Right = ?
+Bottom Left = ?
+Top Left = ?
+Top Right = ?
 
 ### Code
 
